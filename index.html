@@ -1,0 +1,83 @@
+<!--------------------------------------------------------------------------------------------->
+<!--              MODULE      : EE4207 - GUI PROGRAMMING                                     -->
+<!--              NAME        : DISSANAYAKA U.G.D.T                                          -->
+<!--              REG. NO.    : EG/2019/3577                                                 -->
+<!--              SEMESTER    : 04                                                           -->
+<!--------------------------------------------------------------------------------------------->
+
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+      <link href="assets/css/style.css" rel="stylesheet" />
+      <title>MOVIE SEARCHER</title>
+   </head>
+   <body>
+      <div class="row">
+         <div class="col-2"></div>
+         <div class="col-8 glass">
+            <div class="row">
+               <div class="col-9">
+                  <input class="form-control" type="text" id="search_str" placeholder="Search a movie by title" />
+               </div>
+               <div class="col-3">
+                  <button class="form-control" id="button">Search</button>
+               </div>
+            </div>
+         </div>
+         <div class="col-2"></div>
+      </div>
+      <div id="movie_list" class="row py-4"></div>
+   </body>
+
+   <div
+      class="modal fade"
+      id="movie_modal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby=""
+      aria-hidden="true"
+      >
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 id="modal_title" class="modal_title">
+                  Modal title
+               </h5>
+               <span aria-hidden="true">&times;</span>
+               </button>
+            </div>
+            <div class="modal-body">
+               <div class="row">
+                  <div class="col-6"><img class="image" id="modal_image" src=""/></div>
+                  <div class="col-6">
+                    <div class="modal_text" id="modal_text">
+                   </div>
+                   <div class="detail_section">
+                      <div class="detail_tag">Director : <span id="director_detail"></span></div>
+                      <div class="detail_tag">Year : <span id="year_detail"></span></div>
+                      <div class="detail_tag">Run Time : <span id="run_time_detail"></span></div>
+                      <div class="detail_tag">Country : <span id="country_detail"></span></div>
+                   </div>
+                  </div>
+            </div>
+         </div>
+         <div class="modal-footer">
+            <button
+               type="button"
+               class="btn btn-secondary"
+               data-bs-dismiss="modal"
+               >
+            Close
+            </button>
+         </div>
+      </div>
+   </div>
+   </div>
+   <script src="assets/js/jquery.min.js"></script>
+   <script src="assets/js/bootstrap.bundle.min.js"></script>
+   <script src="assets/js/sweetalert.min.js"></script>
+   <script src="assets/js/script.js"></script>
+</html>

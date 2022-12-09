@@ -1,0 +1,125 @@
+body {
+  background: url('../img/bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+
+.glass{
+  margin-top: 50px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 16px;
+  border: 1px solid rgba(200, 200, 200, 0.6);
+  
+  backdrop-filter: saturate(180%) blur(10px);
+  padding: 100px 100px 100px 100px;
+}
+
+.swal-ofgverlay {
+  background-color: rgba(43, 165, 137, 0.45);
+}
+
+
+
+.swal-modal {
+  background: rgba(0,0,0,0.5);
+  border-radius: 16px;
+  border: 1px solid rgba(200, 200, 200, 0.6);
+  
+  backdrop-filter: saturate(180%) blur(10px);
+}
+
+.swal-text {
+  padding: 17px;
+  display: block;
+  margin: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.swal-title {
+  margin: 0px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.21);
+  margin-bottom: 28px;
+  color: #ffffff;
+}
+
+.card-body{
+  min-height: 280px;
+}
+
+.card{
+  background-color: rgb(0,0,0,0.5);
+  backdrop-filter: saturate(180%) blur(10px);
+  border-radius: 16px;
+  border: 1px solid rgba(200, 200, 200, 0.6);
+  box-shadow: 0 2px 4px 0 rgba(136, 144, 195, 0.2),
+    0 5px 15px 0 rgba(37, 44, 97, 0.15);
+
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.card:hover{
+  background: rgb(54 81 207 / 15%);
+  transform: scale(1.05);
+  transition: 0.4s;
+  z-index: 999;
+}
+
+.card-title{
+  color: #ffffff;
+  text-align: center;
+  background-color: rgba(136, 144, 195, 0.2);
+  padding: 10px 10px 10px 10px;
+  width: 100%;
+}
+.modal_title{
+  color: #ffffff;
+  text-align: center;
+  background-color: rgba(136, 144, 195, 0.2);
+  padding: 10px 10px 10px 10px;
+  width: 100%;
+}
+
+.modal_text{
+  color: #ffffff;
+}
+
+.card-text{
+  color: #ffffff;
+  text-align: center;
+}
+
+.view-btn{
+  background-color: rgba(136, 144, 195, 0.2);
+  padding: 10px 50px 10px 50px;
+  color: #ffffff;
+}
+
+
+.modal-content{
+  width: 100% !important;
+  background-color: rgb(0,0,0,0.5);
+  backdrop-filter: saturate(180%) blur(10px);
+  border-radius: 16px;
+  border: 1px solid rgba(200, 200, 200, 0.6);
+  box-shadow: 0 2px 4px 0 rgba(136, 144, 195, 0.2),
+    0 5px 15px 0 rgba(37, 44, 97, 0.15);
+}
+
+.detail_section{
+  margin-top: 20px;
+}
+
+
+.detail_tag{
+  background-color: rgba(136, 144, 195, 0.2);
+  padding: 10px 50px 10px 50px;
+  color: #ffffff;
+  margin-bottom: 5px;
+  border-radius: 5px;
+
+}
